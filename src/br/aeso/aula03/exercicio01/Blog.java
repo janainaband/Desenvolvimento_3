@@ -83,6 +83,15 @@ public class Blog {
 	public void lerNotas(){
 		
 	}
+
+
+	@Override
+	public String toString() {
+		return "Blog [dataCriacao=" + dataCriacao + ", titulo=" + titulo + ", dono=" + dono + ", conteudo=" + conteudo
+				+ ", getDataCriacao()=" + getDataCriacao() + ", getTitulo()=" + getTitulo() + ", getDono()=" + getDono()
+				+ ", getConteudo()=" + getConteudo() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode()
+				+ ", toString()=" + super.toString() + "]";
+	}
 	
 	
 	
