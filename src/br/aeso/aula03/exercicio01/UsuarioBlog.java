@@ -5,6 +5,7 @@ public class UsuarioBlog {
 	private String email;
 	private String nome;
 	
+	
 	public UsuarioBlog(String email, String nome) {
 		this.email = email;
 		this.nome = nome;
